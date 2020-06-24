@@ -2,14 +2,55 @@
 <html lang=en>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coding Quiz</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
-
-
-
-
 <body>
+<div class = "container">
+    <div class = "row">
+        <div class = "col-sm-3">
+            <p id="highscore">View Highscores</p> <!---Link to highscore page-->
+        </div>
+        <div class = "col-sm-3"></div>
+        <div class = "col-sm-4"></div>
+        <div class = "col-sm-2">
+            <script>
+            <p>Time<span id="timer"></span></p>  //Timer fix later / script tag 1
+            </script>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class= "row">
+        <div class= "col-sm-3"></div>
+        <div class="jumbotron">
+            <script>
+            <p class="lead" id="question">This is a question.</p> //script tag 2
+            </script>
+            <hr class="my-4">
+            <script> //script tag 3
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary" id="answer1">Left</button>
+                <button type="button" class="btn btn-secondary" id="answer2">Middle</button> 
+                <button type="button" class="btn btn-secondary" id="answer3">Middle</button>
+                <button type="button" class="btn btn-secondary" id="answer4">Right</button>
+            </div>
+            </script>
+            </div>
+            <script> //script tag 4
+            <p id="wrongright">You are wrong or you are right you get one.</p>
+            </script>
+        </div>
+        
+
+    </div>
+
+
+</div>
+
+
 
 </body>
 
