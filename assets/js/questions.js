@@ -20,4 +20,4 @@ var questions = [
         answer: "walk", 
     }
 
-]
+];
